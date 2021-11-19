@@ -14,3 +14,16 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+$(function () {
+    $('#play').click(function (e) { 
+        e.preventDefault();
+        $('.modal_bg').show();
+    });
+
+    $('#close').click(function (e) { 
+        e.preventDefault();
+        $('.modal_bg').hide(500);
+    });
+});
+
