@@ -38,16 +38,17 @@ header nav a {
 }
 
 header nav a:hover {
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 /*Filme principal*/
 
 .filme-principal {
     font-size: 16px;
-    background:linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.5)100%), url('/img/movie1.jpg');
+    background:linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.5)100%), url('/img/movie2.jpg');
    
-    height: 400px;        
+    height: 450px;        
     background-size:cover;
 
     display: flex;
@@ -58,18 +59,15 @@ header nav a:hover {
 
 .filme-principal p{
     font-size: 17px;
-    width: 400px;
+    width: 450px;
     text-align: justify;
     margin-top: 10px;
-    margin-bottom: 40px;
-    margin: 5px;
 }
 
 .filme-principal h3 {
-    margin-top: 15%;
+    margin-top: 120px;
     font-size: 30px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;    
-    margin: 5px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botao {
