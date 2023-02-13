@@ -2,6 +2,8 @@
 
 Projeto desenvolvido com Javascript, HTML5 e CSS3. 
 
+![doramaflix](https://user-images.githubusercontent.com/53497771/218439540-fd58f28b-c789-43a6-8826-2f79e61d6683.jpg)
+
 <br><br>
 ![javascript](https://user-images.githubusercontent.com/53497771/213576192-033181d3-98d1-449b-b4e7-fb3b5067b32f.png)
 ![html5](https://user-images.githubusercontent.com/53497771/213577497-5b8fdbcd-12a8-4323-b7e2-0e3d4faab58b.png)
