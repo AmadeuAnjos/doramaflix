@@ -3,7 +3,7 @@
     --preto: #000000;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,10 +46,10 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 16px;
-    background:linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.5)100%), url('/img/movie2.jpg');
-   
-    height: 450px;        
-    background-size:cover;
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.5)100%), url('../img/movie2.jpg');
+
+    height: 450px;
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@ header nav a:hover {
     align-items: flex-start;
 }
 
-.filme-principal p{
+.filme-principal p {
     font-size: 17px;
     width: 450px;
     text-align: justify;
@@ -106,14 +106,14 @@ header nav a:hover {
 .box-filme {
     height: 100%;
     width: 100%;
-    display: block;    
+    display: block;
 }
 
 .owl-dots {
     margin-top: -12px;
 }
 
-.modal_bg{
+.modal_bg {
     position: fixed;
     top: 0;
     left: 0;
@@ -149,9 +149,8 @@ header nav a:hover {
 .modal button:hover {
     cursor: pointer;
     background-color: rgb(255, 250, 250);
-}    
+}
 
 .modal iframe {
     margin-top: 30px;
 }
-
